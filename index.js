@@ -9,14 +9,14 @@ const projectitems = [
     name: "GitHub Dork Search",
     href: "https://gds.jax.dev/",
     description:
-      "a web app search tool designed for security professionals, enabling them to retrieve a list of security-related dorks, input specific keywords, and generate search links to uncover potential security vulnerabilities in code hosted on GitHub.",
+      "a web app search tool designed for security professionals, enabling them to retrieve a list of dorks, input keywords, and generate links to uncover potential security vulnerabilities in code hosted on GitHub.",
     featured: false,
   },
   {
     name: "Targeted Password Generator",
     href: "https://github.com/anger/targeted-password-generator",
     description:
-      "a password generation tool that automates the creation of a lengthy wordlist based on various personal information known by the user, which can be used in legitimate penetration testing or forensic investigations to crack potential passwords.",
+      "a password generation tool that automates the creation of a 15k+ wordlist based on various personal information known by the user, which can be used in penetration testing or forensic investigations to crack passwords.",
     featured: false,
   },
   {
