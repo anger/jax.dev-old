@@ -16,14 +16,14 @@ const projectitems = [
     name: "Targeted Password Generator",
     href: "https://github.com/anger/targeted-password-generator",
     description:
-      "a password generation tool that automates the creation of a 15k+ wordlist based on various personal information known by the user, which can be used in penetration testing or forensic investigations to crack passwords.",
+      "a password generation tool that automates the creation of a 15k+ wordlist based on various inputted information, which can be used in penetration testing/forensic investigations to crack passwords.",
     featured: false,
   },
   {
     name: "Angel Fetch",
     href: "https://github.com/anger/angelfetch",
     description:
-      "a simple angle themed command line fetch script made in bash.",
+      "a simple angel themed command line fetch script made in bash.",
     featured: false,
   },
 
