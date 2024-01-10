@@ -6,13 +6,6 @@ const projectitems = [
     featured: false,
   },
   {
-    name: "GitHub Dork Search",
-    href: "https://gds.jax.dev/",
-    description:
-      "a web app search tool designed for security professionals, enabling them to retrieve a list of dorks, input keywords, and generate links to uncover potential security vulnerabilities in code hosted on GitHub.",
-    featured: false,
-  },
-  {
     name: "Targeted Password Generator",
     href: "https://github.com/anger/targeted-password-generator",
     description:
