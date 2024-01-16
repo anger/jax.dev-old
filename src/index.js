@@ -19,6 +19,7 @@ const projectitems = [
       "a simple angel themed command line fetch script made in bash.",
     featured: false,
   },
+  
 
 ];
 
