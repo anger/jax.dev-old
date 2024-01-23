@@ -3,7 +3,7 @@ const projectitems = [
     name: "Voyager.js",
     href: "https://github.com/anger/voyager-js",
     description: "a Node.js script designed for testing URLs for template injection vulnerabilities. It automates the process of appending known injection strings to URLs and monitors the responses for signs of successful injection.",
-    featured: false,
+    featured: true,
   },
   {
     name: "fontpocalypse",
