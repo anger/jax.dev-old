@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:600,400,400italic");
+
+html {
+  font-family: Inter, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  background-image: linear-gradient(#000, #000);
+  height: auto;
+  background-color: var(--black);
+  color: #fff;
+  background-clip: border-box;
+  flex-direction: column;
+  margin: 40px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  transition: opacity 0.2s;
+  display: flex;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #cc4a29;
+  text-decoration: underline;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  max-width: 600px;
+}
+span.semi-bold {
+  font-weight: 600;
+}
+span.underline-orange {
+  text-decoration: underline;
+  text-decoration-color: #f5a623;
+  text-decoration-thickness: 3px;
+  text-decoration-skip-ink: none;
+}
+span.underline-green {
+  text-decoration: underline;
+  text-decoration-color: #42b983;
+  text-decoration-thickness: 3px;
+  text-decoration-skip-ink: none;
+}
+span.underline-red {
+  text-decoration: underline;
+  text-decoration-color: #cc4a29;
+  text-decoration-thickness: 3px;
+  text-decoration-skip-ink: none;
+}
+span.text-small {
+  font-size: 0.75em;
+  line-height: normal;
+}
+.Text-with-scribble-1:after {
+  content: " ";
+  position: absolute;
+  width: 164px;
+  height: 190%;
+  left: -20px;
+  top: 0px;
+  background: url("assets/1.svg") no-repeat;
+  background-size: contain;
+  display: block;
+}
+.Text-with-scribble-2:after {
+  content: " ";
+  position: absolute;
+  width: 130%;
+  height: 10px;
+  left: 0;
+  bottom: -7px;
+  background: url("assets/2.svg") no-repeat;
+  background-size: contain;
+  display: block;
+}
+.Text-with-scribble-3:after {
+  content: " ";
+  position: absolute;
+  width: 110%;
+  height: 20px;
+  left: 0;
+  bottom: -16px;
+  background: url("assets/2.svg") no-repeat;
+  background-size: contain;
+  display: block;
+}
+.project-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+  padding: 0.5em;
+}
+.project-body {
+  margin-top: 0.5em;
+  line-height: 1;
+}
+.portfolio-body {
+  height: auto;
+  background-color: var(--black);
+  color: #fff;
+  background-image: linear-gradient(#000, #000);
+  background-clip: border-box;
+  flex-direction: column;
+  margin: 40px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  transition: opacity 0.2s;
+  display: flex;
+}
+.description {
+  max-width: 600px;
+  margin-top: 8px;
+}
+.portrait-photo {
+  clear: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  position: fixed;
+  top: auto;
+  bottom: 40px;
+  left: auto;
+  right: 40px;
+}
+.swiper {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: contain;
+  background-color: black;
+  outline-style: solid;
+  border-radius: 18px;
+  width: 350px;
+  height: 355px;
+}
