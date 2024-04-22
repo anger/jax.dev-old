@@ -17,8 +17,7 @@ html {
   display: flex;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-  overflow-x: hidden; 
-  overflow-y: auto;
+  overflow: hidden;
 }
 a {
   color: white;
